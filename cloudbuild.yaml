@@ -1,13 +1,13 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'us-central1-docker.pkg.dev/zatca-428614/gke-cicd/quickstart-image', './app1' ]
+  args: ['build', '-t', 'me-central2-docker.pkg.dev/zatca-428614/gke-cicd/quickstart-image', './app1' ]
   id: 'Build Docker Image'
 
   # images:
   # - 'us-central1-docker.pkg.dev//gke-cicd/quickstart-image'
 
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['push', 'us-central1-docker.pkg.dev/zatca-428614/gke-cicd/quickstart-image' ]
+  args: ['push', 'me-central2-docker.pkg.dev/zatca-428614/gke-cicd/quickstart-image' ]
   id: 'Push Docker Image'
 
 - name: 'gcr.io/cloud-builders/docker'
