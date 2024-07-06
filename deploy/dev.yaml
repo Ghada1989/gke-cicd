@@ -6,5 +6,5 @@ metadata:
   labels: {}
 description: dev
 gke:
-  cluster: projects/prj-poc-001/locations/me-central2-c/clusters/cluster-1
+  cluster: projects/zatca-428614/locations/me-central2-c/clusters/cluster-1
 
