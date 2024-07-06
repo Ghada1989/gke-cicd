@@ -1,4 +1,3 @@
-apiVersion: deploy.cloud.google.com/v1
 kind: Target
 metadata:
   name: dev
@@ -6,5 +5,5 @@ metadata:
   labels: {}
 description: dev
 gke:
-  cluster: projects/prj-poc-001/locations/us-central1-c/clusters/cluster-1
+  cluster: projects/prj-poc-001/locations/me-central2-c/clusters/cluster-1
 
