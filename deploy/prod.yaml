@@ -7,5 +7,5 @@ metadata:
 description: prod
 requireApproval: true
 gke:
-  cluster: projects/zatca-428614/locations/me-central2-c/clusters/cluster-2
+  cluster: projects/zatca-428614/locations/me-central2/clusters/zatca-autopilot-cluster
 
