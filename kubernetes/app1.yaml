@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: my-container
-          image: me-central2-docker.pkg.dev/zatca-428614/gke-cicd/quickstart-image
+          image: me-central2-docker.pkg.dev/analog-sum-429419-u7/gke-cicd/quickstart-image
           ports:
             - containerPort: 8080
 
