@@ -7,5 +7,5 @@ metadata:
 description: prod
 requireApproval: true
 gke:
-  cluster: projects/analog-sum-429419-u7/locations/me-central2/clusters/autopilot-cluster
+  cluster: projects/analog-sum-429419-u7/locations/me-central2/clusters/autopilot-cluster-2
 

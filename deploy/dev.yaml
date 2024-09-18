@@ -6,5 +6,5 @@ metadata:
   labels: {}
 description: dev
 gke:
-  cluster: projects/analog-sum-429419-u7/locations/me-central2/clusters/standard-cluster
+  cluster: projects/analog-sum-429419-u7/locations/me-central2/clusters/standard-cluster-1
 
